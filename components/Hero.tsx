@@ -48,7 +48,7 @@ function Hero() {
           loading="lazy"
         />
         <div className="w-full h-screen flex items-center relative md:justify-start justify-center">
-          <div className="flex flex-col z-30 max-w-[55rem] mt-40 md:mt-20 md:text-left text-center md:items-start items-center">
+          <div className="flex flex-col z-30 max-w-[40rem] mt-40 md:mt-20 md:text-left text-center md:items-start items-center">
             <h4 className="text-2xl text-[#010103] font-bold">
               Planifiez votre voyage maintenant
             </h4>
