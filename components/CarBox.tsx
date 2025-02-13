@@ -62,12 +62,12 @@ function CarBox({ carID }: { carID: number }) {
         <div className="border-x border-b border-gray-200">
           {[
             { label: "Model", value: car?.model },
-            { label: "Mark", value: car?.mark },
-            { label: "Year", value: car?.year },
-            { label: "Doors", value: car?.doors },
-            { label: "AC", value: car?.air },
+            { label: "Marque", value: car?.mark },
+            { label: "Année", value: car?.year },
+            { label: "portes", value: car?.doors },
+            { label: "Clim", value: car?.air },
             { label: "Transmission", value: car?.transmission },
-            { label: "Fuel", value: car?.fuel },
+            { label: "Carburant", value: car?.fuel },
           ].map((spec, index) => (
             <div
               key={index}
