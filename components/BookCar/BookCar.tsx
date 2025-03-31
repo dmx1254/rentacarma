@@ -191,7 +191,7 @@ const BookCar: React.FC = () => {
       <div className="container mx-auto mt-10">
         <div className="relative">
           {/* Book Content Box */}
-          <div className="herobg-url w-full p-16 sm:p-10 shadow-lg relative z-10 text-[#010103] rounded-lg bg-white bg-[url('../Components/images/book-bg.png')] bg-center bg-no-repeat bg-cover flex flex-col">
+          <div className="herobg-url w-full p-16 sm:p-10 shadow-lg relative z-10 text-[#010103] rounded-lg bg-white bg-[url('../components/images/book-bg.png')] bg-center bg-no-repeat bg-cover flex flex-col">
             <h2 className="text-2xl font-bold mb-10">Réserver une voiture</h2>
 
             {/* Error Message */}
